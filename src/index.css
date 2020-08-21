@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Russo+One&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.country {
+  text-align: center;
+  min-height: 50vh;
+  }
+  .country h1{
+  padding: 2rem;
+  font-family: 'Russo One', sans-serif;
+  color: peru;
+  font-size: 3rem;
+  }
+  .country input{
+    width: 35%;
+    border: none;
+    outline: none;
+    /* border: 1px solid gray; */
+    border-radius: 7px;
+    font-size: 1.3rem;
+    padding: 0.1rem;
+    padding-left: 10px;
+    box-shadow: 5px 3px 8px gray;
+
+  }
+  .country button{
+    margin-left: 1rem;
+    /* border: none;
+    outline: none;
+    background-color: indigo; */
+  }
+  .main{
+    min-height: 80vh;
+    z-index:-1;
+    background: url('https://analyticsindiamag.com/wp-content/uploads/2020/03/COVID-19-scaled.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+  }
+  .main h1{
+    z-index: 1;
+    font-family: 'Russo One', sans-serif;
+    position: relative;
+    opacity: 1;
+    color: rgb(230, 230, 230);
+    text-shadow: 2px 3px 9px rgb(49, 48, 51);
+    padding: 4rem 0;
+    font-size: 6rem;
+  }
+  .error{
+    min-height: 30vh;
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  .stats h1{
+    font-family: 'Russo One', sans-serif;
+  }
+  .stats div{
+    font-size: 1.3rem;
+    color: gray;
+  }
+  .stats h2{
+    color:black;
+    font-weight: bold;
+  }
+  .stats img{
+    margin: auto;
+    padding: auto;
+    width: 4rem;
+  }
